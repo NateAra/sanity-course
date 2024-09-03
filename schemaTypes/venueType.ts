@@ -9,5 +9,20 @@ export const venueType = defineType({
       name: 'name',
       type: 'string',
     }),
+    defineField({
+      name: 'address',
+      type: 'string',
+    }),
+    defineField({
+      name: 'city',
+      type: 'string',
+    }),
+    defineField({
+      name: 'image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    }),
   ],
 })
